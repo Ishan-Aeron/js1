@@ -35,3 +35,22 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+// stack (Primitive) heap(Non- Primitive)
+
+let Usename="Ishan"
+let anotherUser=Usename
+anotherUser="Ishan Kumar"
+
+console.log(anotherUser)
+console.log(Usename);
+
+let user1={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let user2=user1;
+user2.upi="hi"
+user2.email="email"
+
+console.log(user1)
+console.log(user2);
