@@ -14,11 +14,12 @@
 let isLoggedIN= "Ishan"
 
 let booleanIsLoggedIn=Boolean(isLoggedIN)
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 /* 
     1=> true;0=>false
     "" => false;
     " "=> true;
 */
-console.log(String(booleanIsLoggedIn));
+// console.log(String(booleanIsLoggedIn));
+
