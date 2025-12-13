@@ -1,5 +1,4 @@
-const userEmail = []
-
+const userEmail = []//true
 if (userEmail) {
     console.log("Got user email");
 } else {
